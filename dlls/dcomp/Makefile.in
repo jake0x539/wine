@@ -1,8 +1,0 @@
-MODULE    = dcomp.dll
-IMPORTS   = dxguid uuid user32 gdi32 d2d1
-
-EXTRADLLFLAGS = -Wb,--prefer-native
-
-SOURCES = \
-	device.c \
-	version.rc
